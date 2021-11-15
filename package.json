@@ -10,7 +10,7 @@
     "test": "jest --coverage"
   },
   "keywords": [],
-  "author": "Ella Tanttu",
+  "author": "Liam Eller",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",

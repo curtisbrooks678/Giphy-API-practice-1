@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
 module.exports = {
-  entry: './src/main.js',
+  entry: './src/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
@@ -50,7 +50,7 @@ module.exports = {
       },
 
       {
-        test:/\.html$/,
+        test: /\.html$/,
         use: [
           'html-loader'
         ]
