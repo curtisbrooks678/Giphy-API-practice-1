@@ -6,6 +6,8 @@ import './css/styles.css';
 
 $(document).ready(function () {
   $('#gifSearch').click(function () {
+    const clear = document.getElementById("display");
+    clear.innerHTML = '';
     const key = $('#search').val();
     $('#search').val("");
     const type = $("input[name=query]:checked").val();
