@@ -1,8 +1,8 @@
 # Giphy-API
 
-#### EPICODUS PRACTICE: A webpage practicing API.
+#### A webpage practicing APIs.
 ---
-#### By
+#### By:
 * _**Liam Eller**_
 * _**Jeff Lai**_
 
@@ -19,14 +19,11 @@
 
 ## Description
 
-_Detailed description that explains the project and what concepts were being practiced._
-
-## View Live Application on GH-Pages
-_PLACE LINK TO LIVE SITE HERE_
+_A webpage alllowing you to search or see trending gifs by using APIs from the website [giphy.com](https://developers.giphy.com/)_
 
 ## Setup & Installation Instructions
 
-1. Download or clone github repository to local machine in desired directory - https://github.com/url-path
+1. Download or clone github repository to local machine in desired directory.
 2. If downloaded, extract .zip contents to desired directory
 3. Navigate to and open directory with Visual Studio Code
 4. Open terminal and install required packages by typing "npm install"
@@ -36,29 +33,10 @@ _PLACE LINK TO LIVE SITE HERE_
 
 ## Known Bugs
 
-No known issues
+1. Doesn't work as expected when selecting the see a random gif option
 
 ## License
 
-_MIT Copyright (c) __
 _https://opensource.org/licenses/MIT_
 
-
-## Describe Giphy ------
-Create an application that allows users to search Giphy for interesting GIFs.
-      We want the user to be able to traverse popular giphys, search for key words to bring popular gifs and 
- Make sure to carefully read Giphy's documentation as you build out your application.
-
-1. First, build out your application to allow users to search for GIFs using a keyword.
-
-      * webpage with a user input and a div to display the api response.
-
-2 .Next, add functionality so your users can see trending content from Giphy.
-
-      * 
-
-3. Finally, add a button that users can click to randomly see a GIF from Giphy.
-
-4. More challenging: Add functionality so a user can upload content to Giphy. Note that the free tier only allows users to upload 10 files per day(using API POST here). You can apply for a production key if you'd like the option to add more.
-
-5. Optional: Try adding a try...catch block to handle API errors without looking at future lessons on how to do this. Once again, this is good practice. 
+_MIT Copyright (c) _11/2021_ _Liam Eller & Jeff Lai_

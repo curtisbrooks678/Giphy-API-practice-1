@@ -9,10 +9,13 @@
     <h1>Get fun GIFs!</h1>
     <label for="search">Enter your search:</label>
     <input id="search" type="text">
-    <label for="query">Enter search or trending only!</label>
-    <input id="query" type="text">
+    <label class="radioButton" for="query">See what's trending</label>
+    <input name="query" type="radio" value="trending">
+    <label class="radioButton" for="query">Search by key word</label>
+    <input name="query" type="radio" value="search" checked>
+    <label class="radioButton" for="query">See a random gif</label>
+    <input name="query" type="radio" value="GetbyID">
     <button class="btn-success" id="gifSearch">Search!</button>
-    <button class="btn-success" id="gifTrending">See Trending</button>
     <div id="display"></div>
   </div>
 </body>
