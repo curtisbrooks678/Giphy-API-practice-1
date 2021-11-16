@@ -17,9 +17,9 @@ module.exports = {
     new CleanWebpackPlugin(),
     new Dotenv(),
     new HtmlWebpackPlugin({
-      title: 'Project Name',
+      title: 'Giphy-API',
       template: './src/index.html',
-      inject: 'body'
+      inject: 'head'
     })
   ],
   module: {
